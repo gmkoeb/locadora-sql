@@ -1,8 +1,8 @@
 -- SQLite
 
 -- Mostra todos os funcionários e seus respectivos cargos
-SELECT NAME, DESCRIPTION FROM EMPLOYEES e
-INNER JOIN POSITIONS p ON p.id = e.POSITION_ID
+SELECT NAME, DESCRIPTION FROM EMPLOYEES
+INNER JOIN POSITIONS ON POSITIONS.id = EMPLOYEES.POSITION_ID
 
 -- Exibe somente os funcionários que realizaram mais ou igual a 2 locações.
 
