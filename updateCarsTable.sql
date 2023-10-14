@@ -1,0 +1,6 @@
+-- SQLite
+UPDATE CARS
+SET YEAR = '2019'
+WHERE NAME = 'Fiat Cronos'
+
+DELETE FROM CARS WHERE NAME = 'Hyundai HB20 1.6'
